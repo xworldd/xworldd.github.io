@@ -1,0 +1,72 @@
+.main
+	background: url(../img/main/main-bg.jpg) center no-repeat
+	background-size: cover
+
+.header-wrapping
+	padding-top: 40px
+	display: flex
+	justify-content: space-between
+
+
+.menu
+	&__list
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		& li
+			padding-right: 20px
+			& a
+				font-weight: 400
+				font-size: 16px
+				color: #fffefe
+				text-decoration: none
+				padding-bottom: 9px
+				transition: all 0.3s
+				&:hover
+					border-bottom: 2px solid #008ed6	
+
+.main-cont
+	margin-top: 100px
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	&-text
+		max-width: 45%
+		&__label
+			color: #008ed6
+			text-transform: uppercase
+			font-weight: 700
+			font-size: 14px
+			letter-spacing: 1.4px
+		&__title
+			color: #ffffff
+			font-size: 48px
+			font-weight: 400
+		&__desc
+			padding-top: 10px
+			font-weight: 400
+			color: #999999	
+		&-buttons
+			padding-top: 60px
+
+.button 
+	font-weight: 700
+	color: #ffffff
+	font-size: 14px
+	text-transform: uppercase
+	padding: 20px 27px	
+	&:hover
+	cursor: pointer			
+
+.action-btn	
+	background: #008ed6
+	border: none
+	border-radius: 5px
+	&:hover
+		background-color: lighten(#008ed6,10%)
+
+.desc-btn
+	background: transparent
+	border: 1px solid rgba(255, 255, 255, 0.2)
+	border-radius: 5px
+	margin-left: 20px
