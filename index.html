@@ -37,24 +37,24 @@
 								
 								<div class="menu-mobile">
 									<ul class="menu-mobile-list">
-										<li><a href="#main">Home</a></li>
-										<li><a href="#features">Features</a></li>
-										<li><a href="#description">About</a></li>
+										<li><a class="scrollto" href="#main">Home</a></li>
+										<li><a class="scrollto" href="#features">Features</a></li>
+										<li><a class="scrollto" href="#description">About</a></li>
 										<li class="sm-styling">
-											<a href="#feedback">Testimonials</a>
+											<a class="scrollto" href="#testimonials">Testimonials</a>
 										</li>
-										<li><a href="#pricing">Pricing</a></li>
-										<li><a href="#contacts">Contact</a></li>
+										<li><a class="scrollto" href="#pricing">Pricing</a></li>
+										<li><a class="scrollto" href="#contacts">Contact</a></li>
 									</ul>
 								</div>
 
 								<ul class="menu__list sm-styling">
-									<li><a href="#main">Home</a></li>
-									<li><a href="#features">Features</a></li>
-									<li><a href="#description">About</a></li>
-									<li><a href="#testimonials">Testimonials</a></li>
-									<li><a href="#pricing">Pricing</a></li>
-									<li><a href="#contacts">Contact</a></li>
+									<li><a class="scrollto" href="#main">Home</a></li>
+									<li><a class="scrollto" href="#features">Features</a></li>
+									<li><a class="scrollto" href="#description">About</a></li>
+									<li><a class="scrollto" href="#testimonials">Testimonials</a></li>
+									<li><a class="scrollto" href="#pricing">Pricing</a></li>
+									<li><a class="scrollto" href="#contacts">Contact</a></li>
 								</ul>
 
 								<!--./menu -->
@@ -237,7 +237,7 @@
 	</div>
 	<!-- /.description-sec -->
 
-	<div class="feedback sm-styling"	id="feedback">
+	<div class="feedback sm-styling"	id="testimonials">
 		<div class="container">
 
 			<div class="section-heading">
@@ -245,7 +245,7 @@
 				<div class="section-heading__pre-header">product overview
 				</div>
 				<div class="section-heading__header wow feedback-heading animated fadeInUp">
-				List of amazing features</div>
+				Testimonials</div>
 				<div class="section-heading__under-line">
 					<img src="img/under-line.png" alt="">
 				</div>
@@ -596,30 +596,10 @@
 	<script src="js/wow.min.js"></script>
  <script> new WOW().init(); </script>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.js"
-	integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
-	crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js">
 	</script>
 
-	 <script> 
-	 $(document).ready(function(){
-	 var link = $('.menu-mobile-link')
-	 var link_active = $('.menu-mobile-link_active')
-	 var menu = $('.menu-mobile');
-	 var nav_link= $('.menu-mobile a');
-
-
-	 link.click(function(){
-	 	link.toggleClass("menu-mobile-link_active");
-	 	menu.toggleClass("menu-mobile_active");
-	 });
-	 nav_link.click(function(){
-	 	link.toggleClass("menu-mobile-link_active");
-	 	menu.toggleClass("menu-mobile_active");
-	 });
-
-	}); 
-	</script>
+	 <script src="js/script.js"></script>
 
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script src="js/slider-settings.js"></script>
